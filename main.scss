@@ -1,0 +1,121 @@
+@import "documento";
+
+// variablesor-primario
+
+$color-primario: rgb(93, 0, 255);
+$color-secundario: blue;
+$alto: 4px;
+$ancho: 5px;
+
+// media
+
+span {
+    text-align: center;
+    h3 {
+        margin: 3%;
+        color: var(--secundario);
+    }
+}
+
+section {
+    color: black;
+    p {
+        text-align: justify;
+        margin: 3%;
+    }
+}
+
+section {
+    text-decoration: none;
+    img {
+        margin: auto;
+        text-align: center;
+    }
+}
+
+
+section {
+    color: $color-primario;
+    iframe {
+        margin: auto;
+        align-items: center;
+    }
+}
+
+
+form {
+    color: bisque;
+    div {
+        background-color: $color-secundario;
+        label {
+            color: var(--blanco);
+            font-weight: bolder;
+            width: $ancho;
+            height: $ancho;
+        }
+    }
+}
+
+div {
+    background-color: beige;
+    p {
+        color: var(--blanco);
+        padding: 3% 5%;
+        text-align: justify;
+    }
+}
+
+
+
+ul {
+
+    ul {
+        position: absolute;
+        display: none;
+        top: 30px;
+    }
+}
+
+ul {
+    list-style: none;
+    font-size: 0;
+        li {
+            display: block;
+            display: inline-block;
+            width: 15%;
+            position: relative;
+            font-size: 25px
+        }
+    }
+
+
+iframe {
+    text-align: center;
+}
+
+article {
+    img {
+        align-content: center;
+        margin: 2% 2% 0% 2%;
+    }
+}
+
+
+
+header {
+    .border
+    {
+        display: inline-block;
+        width: 15%;
+        position: relative;
+        font-size: 25px
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    div{
+         padding: $alto;
+    }
+   
+ }
+ 
